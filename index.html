@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EntradasYa - Compra entradas para los mejores eventos y conciertos">
+    <title>EntradasYa - Tu plataforma de entradas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #ff5733;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #ff5733;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .search-bar input[type="text"] {
+            padding: 10px;
+            width: 60%;
+            border: 2px solid #333;
+            border-radius: 5px;
+        }
+        .search-bar input[type="submit"] {
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: white;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .search-bar input[type="submit"]:hover {
+            background-color: #ff5733;
+        }
+        .featured-events {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .event {
+            background-color: white;
+            padding: 15px;
+            border: 1px solid #ddd;
+            width: 30%;
+            text-align: center;
+        }
+        .event img {
+            max-width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EntradasYa</h1>
+        <p>Compra tus entradas para los mejores eventos</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Eventos</a>
+        <a href="#">Conciertos</a>
+        <a href="#">Teatro</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Buscar eventos o artistas...">
+        <input type="submit" value="Buscar">
+    </div>
+
+    <section class="featured-events">
+        <div class="event">
+            <img src="https://via.placeholder.com/300" alt="Evento 1">
+            <h2>Entrada de bus para ir a Ezeiza</h2>
+            <p>Fecha: 10/09/2024</p>
+            <p>Lugar: Salida: Aeroparque. Llegada: Aeropuerto Internacional Ministro Pistarini</p>
+            <button>Comprar Entradas</button>
+        </div>
+
+        <div class="event">
+            <img src="https://via.placeholder.com/300" alt="Evento 2">
+            <h2>Gran Premio de Monza</h2>
+            <p>Fecha: 1/09/2024</p>
+            <p>Lugar: Monza, Italia</p>
+            <button>Comprar Entradas</button>
+        </div>
+
+        <div class="event">
+            <img src="https://via.placeholder.com/300" alt="Evento 3">
+            <h2>Concierto Joost Klein</h2>
+            <p>Fecha: 20/09/2024</p>
+            <p>Lugar:Estadio Alberto J. Armando "La Bombonera"</p>
+            <button>Comprar Entradas</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EntradasYa. Todos los derechos reservados.</p>
+        <p><a href="#" style="color: white;">Política de Privacidad</a> | <a href="#" style="color: white;">Términos y Condiciones</a></p>
+    </footer>
+</body>
+</html>
